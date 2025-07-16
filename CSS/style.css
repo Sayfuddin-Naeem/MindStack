@@ -354,4 +354,46 @@ main{
 
 /***** End course Section *****/
 
+/***** why choose Section *****/ 
+
+.section-why--choose .grid{
+    gap: 3rem;
+}
+
+.section-why--choose .text-align--right .why-choose--div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    text-align: right;
+}
+
+.common-text--highlight{
+    width: 6rem;
+    aspect-ratio: 1;
+    background-color: var(--supporting-color);
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.choose-center--div figure{
+    display: flex;
+    justify-content: center;
+}
+
+.choose-center--div figure img{
+    width: 90%;
+    height: auto;
+}
+
+/***** End why choose Section *****/
 
