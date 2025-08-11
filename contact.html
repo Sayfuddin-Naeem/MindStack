@@ -11,6 +11,12 @@
 
     <link rel="stylesheet" href="CSS/style.css">
     <title>Contact Us - MindStack</title>
+
+    <style>
+        footer{
+            padding-top: 0;
+        }
+    </style>
 </head>
 <body>
     <!-- ========== Start NavBar Section ========== -->
@@ -67,7 +73,10 @@
 
         <section class="contact-page--content container grid grid-two--cols">
             <div class="contact-page--form">
-                <form action="#" class="contact-form">
+                <form
+                    action="https://formspree.io/f/xqalwoel"
+                    method="POST"
+                    class="contact-form">
                     <div class="contact-form--item grid grid-two--cols">
                         <div class="fullName">
                             <label for="fullName">Full Name</label>
@@ -87,7 +96,7 @@
                                 id="email"
                                 required
                                 autocomplete="off"
-                                placeholder="abc@mindstact.com">
+                                placeholder="abc@mindstack.com">
                         </div>
                     </div>
 
