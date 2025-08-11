@@ -474,6 +474,59 @@ main{
 
 /***** End why choose Section *****/
 
+/***** blog Section *****/
+
+.section-blog{
+    background-color: var(--bg-color2);
+
+    & .grid{
+        gap: 5.4rem;
+    }
+
+    & .blog figure img{
+        width: 100%;
+    }
+
+    & .blog{
+        box-shadow: var(--btn-box-shadow);
+        transition: scale 0.3s linear;
+        -webkit-transition: scale 0.3s linear;
+        -moz-transition: scale 0.3s linear;
+        -ms-transition: scale 0.3s linear;
+        -o-transition: scale 0.3s linear;
+
+        &:hover{
+            scale: 1.1;
+        }
+
+        & .blog-content{
+            padding: 1.4rem 2.4rem 2.4rem;
+        }
+}
+
+    & .blog-date{
+        margin-top: 1.6rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+
+        & .fa-solid{
+            background-color: transparent;
+            padding: 0;
+
+            &:first-child{
+                margin-right: 0.8rem;
+            }
+        }
+    }
+
+    & .section-common--title{
+        margin-top: 0.8rem;
+    }
+}
+
+/***** End blog Section *****/
+
 /***** contact Section *****/
 
 .section-contact--homepage{
