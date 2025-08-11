@@ -718,3 +718,31 @@ footer .grid > :not([hidden]) ~ :not([hidden]) {
 }
 
 /***** End footer Section *****/
+
+/***** scrollbar Section *****/
+
+/* width */
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background-color: var(--supporting-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--heading-color);
+}
+
+/***** End scrollbar Section *****/
