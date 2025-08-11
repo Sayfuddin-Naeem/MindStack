@@ -47,6 +47,7 @@ li{
 :root{
     --main-color: #0062ff;
     --supporting-color: #ebf3fe;
+    --scrollbar-hover: #DC143C;
     --font-color: #424242;
     --bg-color1: #040d12;
     --bg-color2: #f7fcff;
@@ -739,10 +740,15 @@ footer .grid > :not([hidden]) ~ :not([hidden]) {
     -moz-border-radius: 5rem;
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background-color: var(--heading-color);
+    background-color: var(--scrollbar-hover);
 }
 
 /***** End scrollbar Section *****/
