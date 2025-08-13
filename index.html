@@ -14,6 +14,8 @@
     <!-- font-awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="CSS/style.css">
     <title>Home - MindStack</title>
 </head>
@@ -75,7 +77,7 @@
                         <a href="services.html" class="btn btn-white">Learn with us</a>
                     </div>
                 </div>
-                <div class="section-hero--image">
+                <div class="section-hero--image" data-aos="fade-up">
                     <figure>
                         <img
                             src="./images/main-hero.png"
@@ -110,7 +112,7 @@
             <p class="section-common-subheading">Guiding Your Learning Journey through Research, Design, and Development Excellence.</p>
         </div>
         <div class="container grid grid-three--cols">
-            <div class="about-div">
+            <div class="about-div" data-aos="fade-up" data-aos-delay="50">
                 <div class="icon">
                     <img src="images/research.png" alt="MindStack research team">
                 </div>
@@ -119,7 +121,7 @@
                     We start by learning what you need. We look at what's new and exciting in learning and choose topics that match what you want to learn.
                 </p>
             </div>
-            <div class="about-div">
+            <div class="about-div" data-aos="fade-up" data-aos-delay="350">
                 <div class="icon">
                     <img src="images/design.png" alt="MindStack design team">
                 </div>
@@ -128,7 +130,7 @@
                     Next, we make the lessons. We make them fun and interesting for you. we make sure they work for different ways people like to learn.
                 </p>
             </div>
-            <div class="about-div">
+            <div class="about-div" data-aos="fade-up" data-aos-delay="650">
                 <div class="icon">
                     <img src="images/Coding.png" alt="MindStack development team">
                 </div>
@@ -376,6 +378,9 @@
     
     <!-- ========== End footer Section ========== -->
     
-    
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
